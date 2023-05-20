@@ -1,0 +1,25 @@
+{
+  "name": "ikt_23",
+  "version": "1.0.0",
+  "description": "Dieses Projekt enthält das Grundgerüst einer Webanwendung. Auf diesem Grundgerüst bauen wir auf und fügen sukzessive *progressive* Funktionalitäten hinzu, so dass am Ende eine *Progressive Web Application* entsteht.",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  },
+  "dependencies": {
+    "ngrok": "^4.3.3"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadmilaHeizenreder/ikt_23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadmilaHeizenreder/ikt_23/issues"
+  },
+  "homepage": "https://github.com/RadmilaHeizenreder/ikt_23#readme"
+}
