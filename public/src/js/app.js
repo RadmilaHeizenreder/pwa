@@ -28,7 +28,6 @@ promise
         }
     );
 
-console.log('Ausgabe B');
 
 fetch('https://httpbin.org/ip')
     .then(
