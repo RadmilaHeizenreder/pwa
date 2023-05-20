@@ -1,0 +1,7 @@
+.idea
+node_modules
+postsbackend/package-lock.json
+postsbackend/package.json
+package-lock.json
+package.json
+```
