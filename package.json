@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RadmilaHeizenreder/ikt_23.git"
+    "url": "git+https://github.com/RadmilaHeizenreder/pwa.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RadmilaHeizenreder/ikt_23/issues"
+    "url": "https://github.com/RadmilaHeizenreder/pwa/issues"
   },
-  "homepage": "https://github.com/RadmilaHeizenreder/ikt_23#readme"
+  "homepage": "https://github.com/RadmilaHeizenreder/pwa#readme"
 }
