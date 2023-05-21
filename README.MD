@@ -50,4 +50,39 @@ Sie können natürlich auch ein anderes Bild als das HTW-Bild einbinden. Beachte
 
 Binden Sie ruhig Ihr eigenes `favicon.ico` in den Projektordner ein. Erstellen können Sie sich ein solches `favicon` z.B. [hier](https://favicon.io/) oder [hier](https://www.ionos.de/tools/favicon-generator). Macht Spaß und gibt allen Ihren Webanwendungen eine persönliche Note ;-).
 
- 
+ GraphQL
+ Query-Anfrage: 
+ query($id: ID) {
+  post(id: $id) {
+    id
+    title
+    location
+    image_id
+  }
+}
+
+query {
+  users {
+    id
+    email
+  }
+}
+
+Mutation-Anfrage:
+
+User register
+	mutation($email: String!, $password: String!) {
+	addUser(email: $email, password: $password){
+		email
+		password
+		}
+	}
+
+Create Post:
+mutation($title: String!, $location: String!, $image_id: String!, $userId: ID) {
+  addPost(title: $title, location: $location, image_id: $image_id, userId: $userId){
+    title
+    location
+    image_id
+  }
+}
