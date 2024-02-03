@@ -1,4 +1,5 @@
 # Progressive Web Apps - Aktuelle Trends der IKT 2022
+####(Semesteraufgabe)
 
 Dieses Projekt enthält das Grundgerüst einer Webanwendung. Auf diesem Grundgerüst bauen wir auf und fügen sukzessive *progressive* Funktionalitäten hinzu, so dass am Ende eine *Progressive Web Application* entsteht. 
 
